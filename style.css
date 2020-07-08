@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Neucha&display=swap');
+
+.container {
+	text-align: center;
+	margin: 32px auto;
+	width: 560px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+	color: #450952;
+	font-family: Gloria Hallelujah;
+	font-size: 32px;
+	letter-spacing: 4px;
+}
+
+h2 {
+	color: rgb(68, 65, 65);
+	font-size: 20px;
+	}
+
+body {
+	background: rgb(233, 239, 247);
+	font-family: Neucha;
+	font-size: 16px  
+}
+
+p {
+	line-height: 16px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+
+
+.card {
+	background: white;
+	padding: 16px;
+	text-align: center;
+	width: 400px;
+	margin: 24px auto	;
+	box-shadow: 4px 2px 3px grey;	
+}
+
+.img-circle {
+	border-radius: 10%;
+	width: 160px;
+}
+
+
+.btn-light-blue {
+	background-color: lightblue;
+	padding: 8px 16px;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: 400px;
+}
+
+.btn-light-blue:hover {
+	background-color: grey;
+}
+
+.list-in-line {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-in-line li {
+	list-style: none;
+	padding: 0px;
+	display: inline;
+	margin: 8px;
+	color: grey;
+	font-size: 24px;
+}
+
+.list-in-line a {
+	color: rgb(75, 73, 73);
+}
+
+li a:hover {
+	color: black;
+}
+
